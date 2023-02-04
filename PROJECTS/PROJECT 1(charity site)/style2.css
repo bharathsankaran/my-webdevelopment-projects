@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.img1 {
+  background-image: url(assets/church.jpg);
+  min-width: 100%;
+  min-height: 100%;
+}
+.container-fluid {
+  background-color: black;
+}
+.img1 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.img2 {
+  background-image: url(assets/hands.jpg);
+  min-width: 100%;
+  min-height: 100%;
+}
+.img2 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.nav-item {
+  align-items: center;
+  padding: 10px;
+}
+.nav-link {
+  color: white;
+  font-weight: 600;
+}
+.nav-item:hover {
+  border-bottom: 3px red solid;
+}
+.nav-item:hover > .nav-link {
+  color: red;
+}
+.nav-link {
+  color: white;
+}
+.companylogo {
+  max-height: 70px;
+  padding: 10px 0;
+  margin-left: 80px;
+}
+.searchicon {
+  color: red;
+  margin-left: 50px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+#donatebtn {
+  height: 45px;
+  margin-left: 80px;
+  margin-top: 12px;
+  background-color: red;
+}
+/*first content*/
+.context {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  text-align: center;
+}
+.f1 {
+  color: white;
+  top: -50%;
+  margin-bottom: 30px;
+}
+.f2 {
+  color: red;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.f3 {
+  color: white;
+  margin-bottom: 30px;
+}
+#btn {
+  background-color: red;
+  height: 45px;
+}
+section {
+  display: flex;
+}
+#ch2 {
+  border-radius: 5px;
+  margin: 30px;
+  margin-top: 50px;
+}
+#svg1,
+#svg2 {
+  position: absolute;
+  color: red;
+  left: 45%;
+}
+.card-body {
+  text-align: center;
+}
+.text2 {
+  text-align: center;
+  padding: 50px;
+}
+#btn3 {
+  font-weight: 600;
+  border-width: 3px;
+  height: 50px;
+}
